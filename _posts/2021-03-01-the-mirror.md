@@ -13,6 +13,8 @@ and forth with the irritation of it. A young man in bright green turban
 approached the army and gave his chieftain's terms for peace to the commander.
 He was refused. It was to be battle, the battle of Ain-Kolur.
 
+<img class="pull-left" src="/images/interior-honors-rest.jpg" alt="honors-rest">
+
 So the chief Iymbez had decreed his open defiance and his horsemen were at war
 once again. Many times the tribe had moved into territory that was not theirs to occupy, and many times the diplomatic approach had failed. It had come to this,
 at long last. It was just as well with Mindothrax. His allies may win or lose,
