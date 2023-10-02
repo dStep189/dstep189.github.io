@@ -1,7 +1,67 @@
 /* GLOBAL STYLES */
+
 html {
-  box-shadow: 0 0 0 30px #000 inset;
-  padding: 0 30px;
+  /* box-shadow: 0 0 0 30px #000 inset; */
+  /* padding: 0 30px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: bg-animation 15s infinite;
+}
+@-webkit-keyframes bg-animation {
+  0% {
+    background-color: #B8ADD1;
+  }
+  15% {
+    background-color: #ADD1BC;
+  }
+  30% {
+    background-color: #ADD1CD;
+  }
+  45% {
+    background-color: #ADC3D1;
+  }
+  60% {
+    background-color: #ADB1D1;
+  }
+  75% {
+    background-color: #BCADD1;
+  }
+  90% {
+    background-color: #CDADD1;
+  }
+  100% {
+    background-color: #B8ADD1;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-color: #B8ADD1;
+  }
+  15% {
+    background-color: #ADD1BC;
+  }
+  30% {
+    background-color: #ADD1CD;
+  }
+  45% {
+    background-color: #ADC3D1;
+  }
+  60% {
+    background-color: #ADB1D1;
+  }
+  75% {
+    background-color: #BCADD1;
+  }
+  90% {
+    background-color: #CDADD1;
+  }
+  100% {
+    background-color: #B8ADD1;
+  }
 }
 body {
   display: flex;
@@ -63,7 +123,7 @@ h2 ~ p {
   margin-left: 1em;
 }
 .header-nav > li ~ li {
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid #00524F;
   padding-left: 1em;
 }
 .header-nav a,
@@ -79,20 +139,20 @@ h2 ~ p {
 }
 .nav-links a:hover,
 .nav-links a:active {
-  color: #ed6e2f;
+  color: #00524F;
 }
 .header-nav > li:first-child a {
-  color: #ed6e2f;
+  color: #fff;
 }
 .header-nav > li:first-child a:hover {
-  color: #fff;
+  color: #00524F;
 }
 .header-logo {
   background-color: #000;
   box-sizing: border-box;
   display: block;
   height: 10vh;
-  left: -30px;
+  /* left: -30px; */
   padding: 10px;
   position: relative;
   text-align: center;
@@ -104,7 +164,7 @@ h2 ~ p {
 }
 .header-logo:hover,
 .header-logo:active {
-  background-color: #ed6e2f;
+  background-color: #00524F;
 }
 
 /* DROPDOWN STYLES */
@@ -115,7 +175,7 @@ h2 ~ p {
   display: block;
 }
 .dropdown:hover .drop-trigger:after {
-  border-color: #ed6e2f transparent transparent;
+  border-color: #00524F transparent transparent;
 }
 .drop-trigger {
   display: inline-block;
@@ -292,8 +352,8 @@ h2 ~ p {
   width: 0;
 }
 .hero-home {
-  background-image: url(/images/shark.jpg);
-  background-position: center top;
+  background-image: url(/images/valley.jpg);
+  background-position: center;
 }
 .hero-content {
   color: #fff;
@@ -304,8 +364,9 @@ h2 ~ p {
   transform: translate(0, -50%);
 }
 .hero-content h1 {
-  color: rgba(255, 255, 255, 0.8);
+  color: #00524F;
   font-size: 7vw;
+  font-weight: bold;
   margin-bottom: 0.25em;
 }
 .hero-content .social-link {
@@ -525,7 +586,7 @@ h2 ~ p {
   margin: 2em -2% 2em 2em;
 }
 .post-aside {
-  background-color: rgba(0, 0, 0, 0.01);
+  background-color: rgba(0, 0, 0, 0.05);
   float: right;
   margin: 0 0 2em 2em;
   padding: 2em;
