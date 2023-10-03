@@ -2,7 +2,7 @@
 layout: post
 title: Deathbrand
 postHero: /images/deathbrand.jpg
-author: This Guy
+author: DTM
 authorTwitter: http://twitter.com/mhartl
 gravatar: https://en.gravatar.com/userimage/134064283/b062d113cab8eae94ea1dfa3bde1d7de.jpg?size=200
 postFooter: Additional information, and maybe a <a href="#">link or two</a>
