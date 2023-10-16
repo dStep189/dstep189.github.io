@@ -72,7 +72,7 @@ body {
 .content-container {
   display: flex;
   flex: 1 1 auto;
-  padding-top: 10vh;
+/*  padding-top: 10vh;*/
   width: 100%;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -108,10 +108,11 @@ h2 ~ p {
 
 /* HEADER STYLES */
 .header {
-  background-color: #000;
+  background-color: rgba(0.267, 0.267, 0.267, 0.25);
   color: #fff;
-  position: fixed;
-  width: 100%;
+  padding-bottom: 30px;
+/*  position: fixed;*/
+/*  width: 100%;*/
   z-index: 20;
 }
 .header-nav {
@@ -148,7 +149,7 @@ h2 ~ p {
   color: #00524F;
 }
 .header-logo {
-  background-color: #000;
+/*  background-color: #000;*/
   box-sizing: border-box;
   display: block;
   height: 10vh;
@@ -162,10 +163,10 @@ h2 ~ p {
   height: 80%;
   width: auto;
 }
-.header-logo:hover,
+/*.header-logo:hover,
 .header-logo:active {
   background-color: #00524F;
-}
+}*/
 
 /* DROPDOWN STYLES */
 .dropdown {
@@ -193,7 +194,7 @@ h2 ~ p {
   width: 0;
 }
 .drop-menu {
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+/*  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);*/
   display: none;
   list-style: none;
   padding: 1em 0 0;
@@ -203,7 +204,7 @@ h2 ~ p {
 }
 .drop-menu:before {
   border: 0.6em solid;
-  border-color: transparent transparent #fff;
+  border-color: transparent transparent #00524f;
   content: "";
   height: 0;
   position: absolute;
@@ -212,15 +213,16 @@ h2 ~ p {
   width: 0;
 }
 .drop-menu li {
-  background-color: #fff;
+  background-color: #00524f;
 }
 .drop-menu li ~ li {
   border-top: 1px dotted rgba(0, 0, 0, 0.1)
 }
 .drop-menu li:first-child {
+  background-color: #00524f;
   border-radius: 5px 5px 0 0;
-  color: #999;
-  font-size: 0.5em;
+  color: #fff;
+  font-size: 0.65em;
   padding: 1em 1em 0.25em;
   text-align: right;
   text-transform: uppercase;
@@ -229,7 +231,7 @@ h2 ~ p {
   border-radius: 0 0 5px 5px;
 }
 .drop-menu a {
-  color: #333;
+  color: #fff;
   display: block;
   font-weight: normal;
   padding: 0.5em 2em 0.5em 1em;
@@ -238,8 +240,8 @@ h2 ~ p {
   white-space: nowrap;
 }
 .drop-menu a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-  color: #333;
+  background-color: rgba(0.267, 0.267, 0.267, 0.25);
+  color: #fff;
 }
 
 /* MOBILE MENU */
@@ -259,7 +261,7 @@ h2 ~ p {
 
 /* FOOTER STYLES */
 .footer {
-  background-color: #000;
+  background-color: rgba(0.267, 0.267, 0.267, 0.25);
   padding: 10vh 0 15vh;
   text-align: center;
 }
@@ -368,14 +370,15 @@ h2 ~ p {
   font-size: 7vw;
   font-weight: bold;
   margin-bottom: 0.25em;
+  text-shadow: 0px 0px 10px #000;
 }
 .hero-content .social-link {
   background-color: rgba(255, 255, 255, 0.8);
   color: #556c83;
 }
 .hero-content .social-link:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: rgba(0.267, 0.267, 0.267, 0.25);
+  color: #00524f;
 }
 .half-hero {
   background-position: center center;
@@ -385,10 +388,10 @@ h2 ~ p {
 
 /* SOCIAL STYLES */
 .social-link {
-  background: rgba(150, 150, 150, 0.5);
+  background: rgba(0.267, 0.267, 0.267, 0.25);
   border-radius: 99px;
   box-sizing: border-box;
-  color: #fff;
+  color: #00524f;
   display: inline-block;
   font-family: helvetica, arial, sans;
   font-size: 1.7em;
@@ -435,7 +438,7 @@ h2 ~ p {
 }
 .home-callout {
   align-items: center;
-  background-color: #000;
+  background-color: rgba(0.267, 0.267, 0.267, 0.25);
   color: #fff;
   display: flex;
   padding: 7vh 0;
@@ -445,6 +448,7 @@ h2 ~ p {
   font-size: 5.75vw;
   text-align: right;
   text-transform: uppercase;
+  text-shadow: 0px 0px 10px #000;
 }
 .callout-copy {
   flex: 0 0 45em;
@@ -640,7 +644,7 @@ h2 ~ p {
     text-transform: uppercase;
   }
   .header-nav {
-    background-color: #444;
+    background-color: #00524f;
     box-sizing: border-box;
     left: 0;
     max-height: 0;
@@ -657,10 +661,13 @@ h2 ~ p {
     display: block;
     margin: 1em 0 0;
     padding: 0;
+    padding-bottom: 20px;
   }
   .header-nav li ~ li {
     border: 0;
     padding: 0;
+    padding-bottom: 20px;
+
   }
   .header-nav li:last-child {
     margin-bottom: 1em;
@@ -682,8 +689,8 @@ h2 ~ p {
   }
   .mobile-menu-check:checked ~ .show-mobile-menu:after {
     background-color: #000;
-    color: #ed6e2f;
-    content: "X";
+    color: #00524f;
+/*    content: "X";*/
     left: 0;
     position: absolute;
     text-align: center;
